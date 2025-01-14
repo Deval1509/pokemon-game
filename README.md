@@ -1,8 +1,9 @@
-Pokémon Guessing Game
-Project Overview:
+_**Pokémon Guessing Game**_
+
+**Project Overview: **
 The Pokémon Guessing Game is a full-stack web application that challenges users to identify Pokémon based on their silhouettes. Built with React.js and Node.js, the application integrates with the PokéAPI to fetch dynamic Pokémon data. The game includes features such as multiple-choice options, score tracking, and a countdown timer to add excitement. It is designed to be responsive, providing an engaging experience on both mobile and desktop screens.
 
-Features:
+_Features_:
 
 Random Pokémon Display: Fetch and display a Pokémon silhouette along with multiple-choice options.
 Verify Guesses: Check if the user’s guess is correct and provide instant feedback.
@@ -13,73 +14,49 @@ Backend API: Node.js backend with Express.js for fetching and verifying Pokémon
 Technologies Used:
 
 Frontend:
-
-React.js
-TailwindCSS
-Axios (for API calls)
-React Router
+ > React.js
+ > TailwindCSS
+ > Axios (for API calls)
+ > React Router
 
 Backend:
-
-Node.js
-Express.js (for API routing)
-Axios
-
-Getting Started:
+ > Node.js
+ > Express.js (for API routing)
+ > Axios
 
 
+**Getting Started:** 
 Prerequisites:
 Before you begin, ensure you have the following installed:
+ - Node.js
+ - npm
+ - git
 
-Node.js
-npm
-git (Optional)
 
-Setup Instructions:
-
+**Setup Instructions:**
 Clone the Repository:
-git clone https://github.com/Deval1509/pokemon-guessing-game.git
-cd pokemon-guessing-game
+git clone https://github.com/Deval1509/pokemon-game.git
+cd pokemon-game
 
 Install Dependencies:
+_Backend_:
+ - cd pokemon-backend > npm install
 
-Backend:
-cd backend
-npm install
-
-Frontend:
-cd ../frontend
-npm install
+_Frontend_:
+ - cd ../pokemon-frontend > npm install
 
 Running the Project:
 
-Backend:
-
+**Backend**:
 Navigate to the backend directory:
-cd backend
+ - cd pokemon-backend
 Start the backend server:
-npm start
+ - npm start
 The backend will run on http://localhost:5000
-Frontend:
 
+**Frontend**:
 Navigate to the frontend directory:
-cd ../frontend
+cd ../pockemon-frontend
 Start the frontend development server:
-npm start
-The frontend will run on http://localhost:3000
-Project Structure:
-
-pokemon-guessing-game/
-
-backend/
-server.js (Backend server logic)
-package.json (Backend dependencies and scripts)
-frontend/
-src/
-components/ (React components like Header, PhotoHolder, etc.)
-App.jsx (Main React app)
-index.css (TailwindCSS styles)
-index.js (React entry point)
-package.json (Frontend dependencies and scripts)
-README.md (Project documentation)
-.gitignore (Git ignore rules)
+npm run dev
+The frontend will run on http://localhost:5173
